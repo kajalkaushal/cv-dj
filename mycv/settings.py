@@ -129,13 +129,14 @@ STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 # STATICFILES_DIRS=[
 #     BASE_DIR,'static'
 # ]
 
-<<<<<<< Updated upstream
-STATICFILES_DIRS=[
-    BASE_DIR,'static'
-]
-=======
->>>>>>> Stashed changes
+# <<<<<<< Updated upstream
+# STATICFILES_DIRS=[
+#     BASE_DIR,'static'
+# ]
+# =======
+# >>>>>>> Stashed changes
